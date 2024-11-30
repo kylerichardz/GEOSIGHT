@@ -23,9 +23,9 @@ A powerful Python-based application for real-time geographic data analysis and v
 
 1. Clone the repository
 
-bash
-git clone https://github.com/yourusername/geosight.git
-cd geosight
+```bash
+git clone https://github.com/kylerichardz/GEOSIGHT.git
+cd GEOSIGHT
 ```
 
 2. Install dependencies
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 3. Run the application
 
 ```bash
-python app.py
+python main.py
 ```
 
 
@@ -53,7 +53,7 @@ python app.py
 ### Project Structure
 geosight/
 ├── src/
-│ ├── init.py
+│ ├── __init__.py
 │ ├── data_handler.py # Data operations
 │ ├── gui.py # GUI implementation
 │ └── utils.py # Helper functions

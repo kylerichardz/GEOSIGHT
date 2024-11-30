@@ -1,0 +1,8 @@
+satellite_viewer/
+├── src/
+│   ├── __init__.py
+│   ├── data_handler.py    # Satellite data operations
+│   ├── gui.py            # GUI implementation
+│   └── utils.py          # Helper functions
+├── requirements.txt
+└── main.py               # Entry point 
